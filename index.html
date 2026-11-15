@@ -53,6 +53,17 @@
     .faq details{border-top:1px solid var(--line);padding:18px 0}.faq details:last-child{border-bottom:1px solid var(--line)}.faq summary{cursor:pointer;font-weight:800;color:var(--ink)}
     footer{background:#f8fafc;border-top:1px solid var(--line);padding:42px 0;font-size:.88rem;color:#64748b}.footer-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:28px}
     .disclosure{background:#f1f5f9;border:1px solid var(--line);padding:18px;border-radius:14px;margin-top:20px}
+
+    /* Additional affiliate supplier directory */
+    .supplier-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+    .supplier-card{display:flex;flex-direction:column;align-items:flex-start;border:1px solid var(--line);border-radius:16px;padding:21px;background:#fff;box-shadow:0 8px 24px rgba(15,23,42,.04)}
+    .supplier-card h3{font-size:1.08rem;margin:0 0 9px}
+    .supplier-card p{font-size:.92rem;color:var(--muted);margin:0 0 15px;flex:1}
+    .supplier-card .btn{width:100%;margin-top:auto}
+    .supplier-note{margin-top:22px}
+    @media(max-width:900px){.supplier-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:520px){.supplier-grid{grid-template-columns:1fr}}
+
     @media(max-width:800px){.hero-grid,.grid,.footer-grid{grid-template-columns:1fr}.navlinks a:not(.nav-cta){display:none}.hero{padding-top:48px}section{padding:54px 0}.hero-card{padding:22px}}
   
 .custom-hero-image{
@@ -118,7 +129,7 @@
 <nav>
 <a class="logo" href="/">Best<span>Peptides</span>ForWeightLoss.org</a>
 <div class="navlinks">
-<a href="#compare">Compare</a><a href="#more-vea">More Vea Options</a><a href="#evidence">Evidence</a><a href="#safety">Safety</a><a href="#faq">FAQ</a>
+<a href="#compare">Compare</a><a href="#more-vea">More Vea Options</a><a href="#supplier-directory">Supplier Directory</a><a href="#evidence">Evidence</a><a href="#safety">Safety</a><a href="#faq">FAQ</a>
 <a class="nav-cta" href="#options">View Options</a>
 </div>
 </nav>
@@ -218,6 +229,62 @@
 <article class="card"><span class="pill">Vea Health</span><h3>Quattro Men’s Health</h3><p><strong>Starting at $115</strong> · Men’s health</p><p>Learn about Vea's clinician-guided Quattro Men’s Health offering, including eligibility and program details.</p><a class="btn secondary" href="https://quattro.veahealth.co?ref=DELMORGAN&amp;utm_source=partner&amp;utm_medium=affiliate&amp;utm_campaign=quattro&amp;utm_content=DELMORGAN" rel="noreferrer noopener sponsored nofollow" target="_blank">View Quattro Men’s Health at Vea →</a></article>
 </div><div class="notice" style="margin-top:24px"><strong>Evidence note:</strong> Inclusion here does not mean these products are proven for weight loss or equivalent to FDA-approved GLP-1 weight-management products. Review the product information and discuss potential risks, benefits, and regulatory status with a qualified clinician.</div></div>
 </section>
+
+<section id="supplier-directory" style="background:var(--bg)">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Additional Affiliate Partners</span>
+      <h2>Explore Peptide Supplier Websites</h2>
+      <p>Visit the independent supplier websites below to review their own product information, business details, policies, and available documentation. We have not independently verified the quality, safety, regulatory status, or effectiveness of products offered by these vendors.</p>
+    </div>
+    <div class="supplier-grid">
+      <article class="supplier-card">
+        <h3>NovaGlo Labs</h3>
+        <p>Visit the vendor's website for current company and product information.</p>
+        <a class="btn primary" data-affiliate-partner="nova_glo_labs" href="https://bhsclick.com/c/1bb7b407ODA0OTg6NTk1NzI?s1=&amp;s2=&amp;s3=" target="_blank" rel="sponsored nofollow noopener noreferrer">Visit NovaGlo Labs →</a>
+      </article>
+      <article class="supplier-card">
+        <h3>Merit Sciences</h3>
+        <p>Review the vendor's current product information and policies.</p>
+        <a class="btn primary" data-affiliate-partner="merit_sciences" href="https://bhsclick.com/c/9f125af4NTk1NzA6NTk1NzI?s1=&amp;s2=&amp;s3=" target="_blank" rel="sponsored nofollow noopener noreferrer">Visit Merit Sciences →</a>
+      </article>
+      <article class="supplier-card">
+        <h3>Onyx BioLabs</h3>
+        <p>Review the vendor's current product information and policies.</p>
+        <a class="btn primary" data-affiliate-partner="onyx_biolabs" href="https://bhsclick.com/c/4c2576cfNTg5ODA6NTk1NzI?s1=&amp;s2=&amp;s3=" target="_blank" rel="sponsored nofollow noopener noreferrer">Visit Onyx BioLabs →</a>
+      </article>
+      <article class="supplier-card">
+        <h3>Kona Peptides</h3>
+        <p>Review the vendor's current product information and policies.</p>
+        <a class="btn primary" data-affiliate-partner="kona_peptides" href="https://bhsclick.com/c/630bbd8aNTk2ODI6NTk1NzI?s1=&amp;s2=&amp;s3=" target="_blank" rel="sponsored nofollow noopener noreferrer">Visit Kona Peptides →</a>
+      </article>
+      <article class="supplier-card">
+        <h3>V Peptide Labs</h3>
+        <p>Review the vendor's current product information and policies.</p>
+        <a class="btn primary" data-affiliate-partner="v_peptide_labs" href="https://bhsclick.com/c/b4fefc03NTk0MDg6NTk1NzI?s1=&amp;s2=&amp;s3=" target="_blank" rel="sponsored nofollow noopener noreferrer">Visit V Peptide Labs →</a>
+      </article>
+      <article class="supplier-card">
+        <h3>The Peptides Collective</h3>
+        <p>Review the vendor's current product information and policies.</p>
+        <a class="btn primary" data-affiliate-partner="peptides_collective" href="https://bhsclick.com/c/389388e3MTA3NzQ4OjU5NTcy?s1=&amp;s2=&amp;s3=" target="_blank" rel="sponsored nofollow noopener noreferrer">Visit The Peptides Collective →</a>
+      </article>
+      <article class="supplier-card">
+        <h3>Pristine Aminos</h3>
+        <p>Review the vendor's current product information and policies.</p>
+        <a class="btn primary" data-affiliate-partner="pristine_aminos" href="https://bhsclick.com/c/4b4239f0ODA0OTU6NTk1NzI?s1=&amp;s2=&amp;s3=" target="_blank" rel="sponsored nofollow noopener noreferrer">Visit Pristine Aminos →</a>
+      </article>
+      <article class="supplier-card">
+        <h3>Perfect Peptides</h3>
+        <p>Review the vendor's current product information and policies.</p>
+        <a class="btn primary" data-affiliate-partner="perfect_peptides" href="https://bhsclick.com/c/1260d1d5NTk1NzE6NTk1NzI?s1=&amp;s2=&amp;s3=" target="_blank" rel="sponsored nofollow noopener noreferrer">Visit Perfect Peptides →</a>
+      </article>
+    </div>
+    <div class="notice supplier-note">
+      <strong>Affiliate and safety notice:</strong> We may earn a commission when visitors use these links. Affiliate inclusion is not an endorsement or a verification of a vendor or product. Products marketed for laboratory or research use are not approved for human use and should not be used for self-treatment. Do not rely on supplier marketing to make medical decisions; discuss weight-management treatment with a licensed healthcare professional.
+    </div>
+  </div>
+</section>
+
 <section id="compare">
 <div class="wrap">
 <div class="section-head"><span class="eyebrow">At a Glance</span><h2>Tirzepatide vs. Semaglutide vs. Other Peptides</h2><p>The strongest evidence for clinically meaningful weight reduction is concentrated in GLP-1–based medications studied in large randomized trials.</p></div>
@@ -300,5 +367,23 @@
  launch.addEventListener('click',()=>{if(panel.classList.contains('open')){close();return;}render('start');panel.classList.add('open');panel.setAttribute('aria-hidden','false');launch.setAttribute('aria-expanded','true');document.getElementById('guide-close').focus();});document.getElementById('guide-close').addEventListener('click',close);document.addEventListener('keydown',e=>{if(e.key==='Escape'&&panel.classList.contains('open'))close();});
 })();
 </script>
+
+<script>
+(function(){
+  document.addEventListener('click', function(event){
+    const link = event.target.closest('a[data-affiliate-partner]');
+    if (!link) return;
+    try {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: 'affiliate_click',
+        affiliate_partner: link.getAttribute('data-affiliate-partner'),
+        placement: 'supplier_directory'
+      });
+    } catch (error) {}
+  });
+})();
+</script>
+
 </body>
 </html>
